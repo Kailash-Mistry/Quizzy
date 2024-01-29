@@ -1,7 +1,7 @@
 export function Main2(){
     return(
         <>
-            <div className='flex flex-col justify-around items-center sm:h-[60vh] h-[150vh]'>
+            <div className='flex flex-col justify-around items-center sm:h-[60vh] h-[150vh] mb-32'>
                 <div className='text-center'>
                     <h2 className='text-[60px] font-bold font-serif'>Trusted by teachers in </h2>
                     <h2 className='text-6xl text-yellow-500 font-extrabold font-serif'>90% of Indian Schools</h2>
