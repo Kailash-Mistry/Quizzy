@@ -2,3 +2,6 @@
     background-image: url("./assets/hero.jpg");
     background-size: cover;
 }
+html{
+    scroll-behavior: smooth;
+}

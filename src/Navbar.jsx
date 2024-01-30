@@ -2,7 +2,7 @@ export function Nav(){
 
     return(
         <>
-            <div className="nav-bar flex flex-row justify-between mt-3 h-16">
+            <div className="nav-bar flex flex-row justify-between mt-3 h-16 sticky top-0 bg-white">
                 <div>
 
                 </div>

@@ -41,7 +41,7 @@ const CarouselDemoAutoPlay = () => {
     <Slider {...settings} className='bg-gray-200 pb-24'>
       {imageArray.map((imageUrl, index) => (
         <div key={index} className='mt-32 relative'>
-          <img className='w-[50%] mx-auto h-[600px] text-center border-2 border-black' src={imageUrl} alt="" />
+          <img className='w-[50%] mx-auto  text-center border-2 border-black' src={imageUrl} alt="" />
         </div>
       ))}
     </Slider>
