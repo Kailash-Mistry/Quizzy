@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import { LoginNav } from './Navbar'
+import { LoginNav } from './loginNav'
 import { LoginSec } from './loginSection'
 
-ReactDOM.createRoot(document.getElementById('log')).render(
-  <React.StrictMode>
-    <>
-      <LoginNav/>
-      <LoginSec/>
-    </>
-  </React.StrictMode>,
-)
+export function Login(){
+    return(
+        <>
+          <LoginNav/>
+          <LoginSec/>
+        </>
+    )
+}
