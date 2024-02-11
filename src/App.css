@@ -5,3 +5,11 @@
 html{
     scroll-behavior: smooth;
 }
+.bm-burger-bars{
+    background-color: #373a47;
+}
+.sidebar {
+    position: absolute;
+    top: 0;
+    right: calc(100% + 10px); /* Adjust this value as needed */
+}
